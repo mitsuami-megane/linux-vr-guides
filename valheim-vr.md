@@ -36,13 +36,6 @@ cp ../openvr_api.dll valheim_Data/Plugins/x86_64/openvr_api.dll
 cp -r ./* ~/.steam/root/steamapps/common/Valheim
 ```
 
-- unzip the BepInExPack zip: `unzip `
-- copy everything from inside BepInExPack_Valheim into your steamapps/common/Valheim folder (so that inside your Valheim folder will be a BepInEx folder)
-- unzip the vhvr zip
-- rename `Valheim_Data` to `valheim_Data` (this is because the case is different in the mod vs the game, and if both folders remain, the game will crash on startup)
-- copy everything that was in the VHVR zip (along with the now-renamed `valheim_Data` to your steamapps/common/Valheim folder
-- replace steamapps/common/Valheim/valheim_Data/Plugins/x86_64/openvr_api.dll with the openvr_api.dll from OpenComposite
-
 ## Launching
 
 Native Linux version will not work with VHVR, so we will need to use Proton.
