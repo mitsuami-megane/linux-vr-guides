@@ -44,4 +44,4 @@ Native Linux version will not work with VHVR, so we will need to use Proton.
 
 **Launch Options**: `WINEDLLOVERRIDES="winhttp=n,b" %command%`
 
-Start the mode in the default mode (no Vulkan/OpenGL/etc)
+Start the game in the default mode (no Vulkan/OpenGL/etc)
